@@ -35,4 +35,4 @@ jobs:
         run: npm install -g surge
      
       - name: Run surge
-        run: surge ./build bootcamp_react_ziakhan.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build bootcamp_usman.surge.sh --token ${{ secrets.SURGE_TOKEN }}
